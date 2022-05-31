@@ -8,6 +8,7 @@ ul {
     font-family:'Gilroy','Poppins',sans-serif;
     font-size: large;
     list-style-type: none;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -39,7 +40,7 @@ li a {
   }
   
 li a:hover {
-    background-color: #ca7900;
+    background-color: #e98c00;
   }
 
 #pheading {

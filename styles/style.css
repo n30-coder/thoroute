@@ -3,11 +3,11 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: "Gilroy", "Josefin Sans", "Montserrat", "Raleway", "Poppins",
+  font-family: "Josefin Sans", "Gilroy", "Montserrat", "Raleway", "Poppins",
     sans-serif;
 }
 #footer {
-  font-family: "Gilroy", "Josefin Sans", "Montserrat", "Poppins", "Raleway",
+  font-family: "Josefin Sans", "Gilroy", "Montserrat", "Poppins", "Raleway",
     sans-serif;
   font-size: small;
   position: absolute;

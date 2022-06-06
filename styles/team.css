@@ -6,7 +6,7 @@ body {
     font-family: "Josefin Sans", "Gilroy", "Montserrat", "Raleway", "Poppins",
       sans-serif;
 }
-ul {
+#navbar {
     font-size: large;
     list-style-type: none;
     font-weight: 400;
@@ -33,7 +33,7 @@ ul {
     border-right: none;
     float: right;
   }
-  
+
   li a {
     display: block;
     color: white;
@@ -45,3 +45,7 @@ ul {
   li a:hover {
     background-color: #e98c00;
   }
+
+#team{
+  color:red;
+}

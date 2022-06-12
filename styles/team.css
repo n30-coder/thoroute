@@ -1,5 +1,4 @@
 body {
-  background-color: #eaeaea;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -47,7 +46,7 @@ li a:hover {
 }
 
 .team {
-  color: red;
+  color: #e98c00;
   display: flex;
   padding-top: 20%;
 }

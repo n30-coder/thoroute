@@ -1,51 +1,83 @@
 body {
-    background-color: #eaeaea;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: "Josefin Sans", "Gilroy", "Montserrat", "Raleway", "Poppins",
-      sans-serif;
+  background-color: #eaeaea;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", "Gilroy", "Montserrat", "Raleway", "Poppins",
+    sans-serif;
 }
 #navbar {
-    font-size: large;
-    list-style-type: none;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ff9900;
-    border-radius: 1em;
-  }
-  
-  li {
-    float: left;
-    border-right: 1px;
-    border-left: 1px;
-    border-right-style: ridge;
-    border-left-style: ridge;
-    border-color: #ffaa2b;
-  }
-  li:first-child {
-    border-left: none;
-  }
-  
-  li:last-child {
-    border-right: none;
-    float: right;
-  }
+  font-size: large;
+  list-style-type: none;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff9900;
+  border-radius: 1em;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1em 1.2em;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #e98c00;
-  }
+li {
+  float: left;
+  border-right: 1px;
+  border-left: 1px;
+  border-right-style: ridge;
+  border-left-style: ridge;
+  border-color: #ffaa2b;
+}
+li:first-child {
+  border-left: none;
+}
 
-#team{
-  color:red;
+li:last-child {
+  border-right: none;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 1.2em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e98c00;
+}
+
+.team {
+  color: red;
+  display: flex;
+  padding-top: 20%;
+}
+.names {
+  border: none;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+}
+#name {
+  font-size: 2em;
+  margin-bottom: -10px;
+}
+#role {
+  font-weight: 100;
+  text-align: center;
+}
+
+footer {
+  font-family: "Josefin Sans", "Gilroy", "Montserrat", "Raleway", "Poppins",
+    sans-serif;
+  font-size: small;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2.4em;
+  width: 100%;
+  color: #ffffff;
+  background: #383838;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 30px;
 }

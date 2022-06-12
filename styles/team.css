@@ -1,5 +1,5 @@
 body {
-  background-color: #eaeaea;
+  background-color: #323232;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ff9900;
+  background-color: #eaeaea;
   border-radius: 1em;
 }
 
@@ -23,7 +23,8 @@ li {
   border-left: 1px;
   border-right-style: ridge;
   border-left-style: ridge;
-  border-color: #ffaa2b;
+  border-color: #323232;
+  padding:none;
 }
 li:first-child {
   border-left: none;
@@ -36,18 +37,19 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: #323232;
   text-align: center;
   padding: 1em 1.2em;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #e98c00;
+  background-color: #1d1d1d;
+  color: #eaeaea;
 }
 
 .team {
-  color: #ffaa2b;
+  color: #eaeaea;
   display: flex;
   padding-top: 20%;
 }

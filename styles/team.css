@@ -6,7 +6,15 @@ body {
   font-family: "Josefin Sans", "Gilroy", "Montserrat", "Raleway", "Poppins",
     sans-serif;
 }
-#navbar {
+.verti {
+  border: 0;
+  margin: 0;
+  border-left: 1px solid;
+  border-color: #323232;
+  height: 54px;
+  float: left;
+}
+.navbar {
   font-size: large;
   list-style-type: none;
   font-weight: 400;
@@ -17,25 +25,14 @@ body {
   border-radius: 1em;
 }
 
-li {
+.navlist {
   float: left;
-  border-right: 1px;
-  border-left: 1px;
-  border-right-style: ridge;
-  border-left-style: ridge;
-  border-color: #323232;
-  padding:none;
 }
-li:first-child {
-  border-left: none;
+.navlist:last-child{
+  float:right;
 }
 
-li:last-child {
-  border-right: none;
-  float: right;
-}
-
-li a {
+.navlist a {
   display: block;
   color: #323232;
   text-align: center;
@@ -43,7 +40,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navlist a:hover {
   background-color: #1d1d1d;
   color: #eaeaea;
 }

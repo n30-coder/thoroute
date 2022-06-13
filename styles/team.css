@@ -28,8 +28,8 @@ body {
 .navlist {
   float: left;
 }
-.navlist:last-child{
-  float:right;
+.navlist:last-child {
+  float: right;
 }
 
 .navlist a {
@@ -79,4 +79,14 @@ footer {
   font-size: 0.8em;
   text-align: center;
   line-height: 30px;
+}
+
+footer a {
+  color: #eaeaea;
+}
+footer a:hover {
+  color: #a3a3a3;
+}
+footer a:active {
+  color: #fff;
 }
